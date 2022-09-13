@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port =  process.env.PORT || 6270
+const port =  process.env.PORT || 6270;
 const name = require("./student.json");
 
 
@@ -23,3 +23,5 @@ app.get("/name", (req, res) => {
 //   git remote // show connected remote
   
 //   git push heroku master
+
+//https://ranjit-temp-app.herokuapp.com/
